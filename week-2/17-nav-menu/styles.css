@@ -26,16 +26,7 @@
     .site-header {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-
-    }
-
-    .site-header__checkout {
-        justify-content: flex-end;
-    }
-
-    .site-header__nav {
+        justify-content: space-between;
         align-items: center;
 
     }
