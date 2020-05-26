@@ -10,7 +10,7 @@
     }
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 700px) {
 
     .site-header {
         display: flex;
