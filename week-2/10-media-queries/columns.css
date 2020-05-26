@@ -1,1 +1,20 @@
 /* Add your own CSS code below */
+
+/* when device is wider than 768px */
+@media only screen and (min-width: 768px) {
+
+    .countries {
+    columns: 2;
+    }
+
+}
+
+/* when device is wider than 1200px */
+
+@media only screen and (min-width: 1200px) {
+
+    .countries {
+        columns: 3;
+    }
+    
+}
