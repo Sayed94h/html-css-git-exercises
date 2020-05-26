@@ -2,3 +2,35 @@
   display: flex;
 }
 /* Add your own CSS code below */
+
+.countries--tall.countries--first {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.countries--tall.countries--second {
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+
+}
+
+.countries--tall.countries--third {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.countries--tall.countries--fourth {
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+
+}
