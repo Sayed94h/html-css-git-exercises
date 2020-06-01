@@ -29,7 +29,14 @@
                 </div>
               </td>
               <td>
-                Medium
+                <form method="GET" id="dif-sizes">
+                  <label class="screenreader" for="t-shirt">Choose a size</label>
+                  <select id="t-shirt" name="size-list" form="dif-sizes" placeholder="Medium">
+                    <option value="small">Small</option>
+                    <option value="Medium" selected>Medium</option>
+                    <option value="Large">Large</option>
+                  </select>
+                </form>
               </td>
               <td>
                 1
