@@ -1,1 +1,46 @@
 /* Add your own CSS code below */
+
+.red-heart {
+  color: #c85308;
+}
+
+nav.main-nav .main-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+article.main-article {
+  max-width: 50em;
+  font-weight: bold;
+  line-height: 1.5em;
+  display: flex column;
+}
+
+@media (min-width: 992px) {
+  main div h2.hero__title {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 767px) {
+  header.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 767px) {
+  div.views {
+    display: flex;
+    flex-direction: row;
+  }
+  div a.view-list__item {
+    margin-left: 15px;
+  }
+  div a.views__all {
+    margin-left: 65vw;
+  }
+}
